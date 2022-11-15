@@ -29,13 +29,22 @@
 > 
 > Damos click a **browser** y buscaremos el archivo **database.sql**
 >
-> A continuacion le daremos click al boton de **GO**
+> A continuacion le daremos al boton de **GO**
 ![alt text](/Public/assets/images/readme/image-1.png)
 
 ### Cambiar parametros de la base de datos
 > `/config/Settings.php`
 
-![alt text](/Public/assets/images/readme/image-2.png)
+```php
+
+ define('DB_SETTINGS', array(
+    'HOST'      => 'localhost:3306',
+    'USER'      => 'root',
+    'PASSWORD'  => 'root',
+    'DATABASE'  => 'ProyectoTokioSchool'
+  ));
+
+```
 
 ### Inicializar proyecto en Local
 
