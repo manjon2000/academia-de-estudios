@@ -1,0 +1,229 @@
+/* Mobile */
+.navbar-container{
+  width: 100%;
+  height: max-content;
+  padding: 10px 0px;
+}
+.navbar-container-mobile{
+  width: 90%;
+  height: max-content;
+  padding: 10px 0px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-logo-mobile{
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px #00000030;
+}
+.navbar-logo-mobile > img{
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.navbar-menu-mobile{
+  width: 75%;
+  min-height: 100vh;
+  height: max-content;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: ease-in-out 1s;
+  background-color: #0000;
+  opacity: 0;
+
+}
+.navbar-menu-content-mobile{
+  width: 100%;
+  height: 100vh;
+  padding: 2rem 15px;
+  background-color: #1c1c1c;
+}
+.navbar-content-menu .mobile-menu-links{
+  margin-bottom: 20px;
+  position: relative;
+}
+.mobile-menu-link{
+  color: #fff;
+  font-weight: 500;
+}
+.navbar-icon-menu-mobile{
+  cursor: pointer;
+}
+.mobile-buttons-menu{
+  display: flex;
+  flex-direction: column;
+}
+.button-mobile{
+  width: 90%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fff;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  color: #fff;
+}
+.user-menu-mobile{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  position: absolute;
+  bottom: 20px;
+}
+.user-image-mobile{
+  widht: 35px;
+  height: 35px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.user-image-mobile > img{
+  width: 100%;
+  height: 100%;
+  border-radius: 100%
+}
+.user-name-mobile > a{
+  color: #fff;
+}
+/* Desktop */
+.navbar-container-desktop{
+  display: none;
+  width: 90%;
+  height: max-content;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+.navbar-logo-desktop{
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+}
+.navbar-logo-desktop > img{
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.navbar-content-menu-desktop{
+  display: flex;
+}
+.navbar-content-menu-desktop > .desktop-menu-links{
+  margin-right: 20px;
+
+}
+.desktop-menu-links > a {
+  color: #1c1c1c;
+  font-weight: 500;
+}
+.navbar-content-menu-desktop > .desktop-menu-links:last-child{
+  margin-right: 0px;
+}
+.desktop-menu-links > .desktop-menu-link{
+  color: #1c1c1c;
+  position: relative;
+}
+.desktop-menu-links > .desktop-menu-link:hover{
+  color: #F95959;
+}
+.desktop-menu-links > .desktop-menu-link::after,
+.desktop-menu-links > a::after{
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0px;
+  width: 0%;
+  height: 3px;
+  border-radius: 10px;
+  background-color: #F95959;
+  transition: ease-in-out .6s;
+}
+.desktop-menu-links > .desktop-menu-link:hover::after{
+  width: 100%;
+  transition: ease-in-out 1s;
+}
+.navbar-user-desktop{
+  width: max-content;
+}
+.desktop-buttons-menu{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.user-menu-desktop{
+  width: max-content;
+  height: max-content;
+  display: flex;
+  align-items: center;
+}
+.user-image-desktop{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+.user-image-desktop > img{
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.user-name-desktop{
+  position: relative;
+}
+.user-name-desktop > a{
+  margin-left: 10px;
+  color: #FF1E56;
+  font-weight: 600;
+}
+.modal-info-user-desktop{
+  width: 200px;
+  height: max-content;
+  background-color: #ffff;
+  border: 1px solid #00000014;
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  border-radius: 5px;
+  z-index: 1;
+}
+.list-info-desktop > li{
+  width: 100%;
+  padding: 5px 0px;
+  margin-bottom: 10px;
+}
+.list-info-desktop > li:hover{
+  background-color: #8080800d;
+}
+.list-info-desktop > li:last-child{
+  margin-bottom: 0px;
+}
+.list-info-desktop > li > a{
+  display: block;
+  width: 100%;
+  color: #1a1a1a;
+  padding: 0px 15px;
+  font-weight: 500;
+}
+.list-info-desktop > li:hover > a{
+  color: #F95959 !important;
+}
+/* Media queries */
+@media screen and (min-width: 768px){
+  .navbar-menu-mobile{
+    width: 35%;
+  }
+}
+/* Desktop */
+@media screen and (min-width: 1024px){
+  .navbar-container-mobile{
+    display: none;
+  }
+  .navbar-container-desktop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

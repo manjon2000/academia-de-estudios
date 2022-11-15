@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Event 1",
+    "start": "2022-10-01"
+  },
+  {
+    "title": "Event 2",
+    "start": "2022-10-05"
+  },
+  {
+    "title": "Event 3",
+    "start": "2022-10-15"
+  },
+  {
+    "title": "Event 4",
+    "start": "2022-10-25"
+  },
+  {
+    "title": "Event 5",
+    "start": "2022-11-05"
+  },
+  {
+    "title": "Event 6",
+    "start": "2022-11-15"
+  },
+  {
+    "title": "Event 7",
+    "start": "2022-11-25"
+  },
+  {
+    "title": "Event 8",
+    "start": "2022-12-05"
+  },
+  {
+    "title": "Event 9",
+    "start": "2022-12-15"
+  },
+  {
+    "title": "Event 10",
+    "start": "2022-12-25"
+  },
+  {
+    "title": "Event 11",
+    "start": "2023-01-05"
+  },
+  {
+    "title": "Event 12",
+    "start": "2023-01-15"
+  },
+  {
+    "title": "Event 13",
+    "start": "2023-01-25"
+  }
+]

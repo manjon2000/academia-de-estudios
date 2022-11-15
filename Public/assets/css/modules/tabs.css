@@ -1,0 +1,202 @@
+.home-tab-info-course-container {
+  width: 90%;
+  height: max-content;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.home-title-tab > h3 {
+  font-size: var(--font_title_h3);
+}
+.home-buttons-tab-container {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px 0px;
+}
+.home-buttons-tab-item {
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px #00001c;
+  transition: background ease-in-out .6s;
+}
+.home-buttons-tab-item > a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  border-radius: 100%;
+}
+.home-buttons-tab-item.actived {
+  background-color: #F46060;
+  transition: background ease-in-out .6s;
+}
+.home-buttons-tab-item.actived > a {
+  color: #fff;
+}
+.home-tab-content > div {
+  opacity: 0;
+  z-index: -1;
+  display: none;
+  margin-top: 1.5rem;
+}
+.home-tab-content > div.show {
+  opacity: 1;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Card */
+.home-tab-item {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 0px 1.5rem 2rem 1.5rem;
+  box-shadow: 0px 0px 3px #000000;
+  background-color: #0000006b;
+  background-image: url(https://picsum.photos/1200);
+  background-blend-mode: overlay;
+  background-size: cover;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+.home-tab-item-fav {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #F46060;
+  cursor: pointer;
+  transition: ease-in-out .7s;
+}
+.home-tab-item-fav:hover {
+  background-color: #F46060;
+  color: #fff;
+  transition: ease-in-out .9s;
+}
+.home-tab-item-time {
+  margin-bottom: 15px;
+}
+.home-tab-item-time > button {
+  width: 150px;
+  height: 35px;
+  outline: none;
+  border: none;
+  background-color: #F46060;
+  border-radius: 5px;
+  color: #fff;
+  font-size: .9rem;
+  font-weight: bold;
+}
+.home-tab-item-title {
+  color: #fff;
+}
+
+/* Media queries */
+@media (min-width: 640px) {
+  .home-tab-item {
+    width: calc(100% / 2 - 1rem);
+  }
+  .home-tab-content > div.show {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+@media (min-width: 768px) {
+    .home-buttons-tab-container {
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+    .home-buttons-tab-item {
+      width: calc(100% / 3 - 1rem);
+    }
+}
+@media (min-width: 1280px) {
+  .home-tab-item {
+    width: calc(100% / 3 - 1rem);
+  }
+  .home-buttons-tab-item {
+    width: calc(100% / 5 - 1rem);
+  }
+}
+@media (min-width: 1536px) {
+  .home-tab-item {
+    width: calc(100% / 3 - 2rem);
+  }
+  .home-tab-content > div.show {
+    gap: 1.5rem;
+  }
+}
+
+/* Tab home */
+.tab-category-courses {
+  width: 90%;
+  height: max-content;
+  margin: 0 auto;
+}
+.container-buttons-tabs-courses {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1.2rem;
+  position: relative;
+}
+.container-buttons-tabs-courses > a {
+  color: #1c1c1c;
+  font-weight: 600;
+}
+.container-buttons-tabs-courses > a.actived {
+  color: #ff1e56;
+  font-weight: 600;
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .container-buttons-tabs-courses {
+    width: max-content;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: 5rem;
+  }
+  .container-buttons-tabs-courses::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 100%;
+    height: 4px;
+    border-radius: 5px;
+  }
+  .container-buttons-tabs-courses::before {
+    content: "";
+    position: absolute;
+    left: var(--widthTab);
+    bottom: -8px;
+    width: var(--widthTabLink);
+    height: 4px;
+    border-radius: 5px;
+    background-color: #ff1e56;
+    z-index: 999;
+    transition: cubic-bezier(0.86, 0, 0.07, 1) 1s;
+    overflow-x: hidden;
+  }
+}

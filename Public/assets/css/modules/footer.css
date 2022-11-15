@@ -1,0 +1,77 @@
+.footer-container {
+  width: 100%;
+  height: max-content;
+  background-color: #F2F2F2;;
+  padding: 20px 0px;
+}
+.footer-links {
+  width: 90%;
+  height: max-content;
+  margin: 0 auto;
+}
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+}
+.footer-menu > a {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.footer-rrss > a {
+  font-size: 1.5rem;
+  margin-right: 20px;
+  transition: color ease-in-out .5s;
+}
+.footer-rrss > a:last-child {
+  margin-right: 0px;
+}
+.footer-copyright {
+  margin: 20px 0px;
+  text-align: center;
+}
+.footer-copyright > p > a {
+  color: red;
+  font-weight: bold;
+}
+.facebook:hover {
+  color: #3b5998;
+  transition: color ease-in-out .5s;
+}
+.twitter:hover {
+  color: #00acee;
+  transition: color ease-in-out .5s;
+}
+.twitch:hover {
+  color: #6441a5;
+  transition: color ease-in-out .5s;
+}
+
+@media (min-width: 640px) {
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer-menu {
+    flex-direction: row;
+  }
+  .footer-menu > a {
+    font-size: .8rem;
+    margin-bottom: 0px;
+    margin-right: 20px;
+  }
+  .footer-menu > a:last-child {
+    margin-right: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .footer-links {
+    padding: 20px 0px;
+  }
+}
+@media (min-width: 1024px) {
+  .footer-menu > a {
+    font-size: 1rem;
+  }
+}

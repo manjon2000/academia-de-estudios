@@ -1,0 +1,20 @@
+#calendar {
+  z-index: 99;
+}
+.fc-col-header-cell{
+  background-color: #006086;
+  color: #fff;
+  gap: 20px;
+  border-right: 1px solid #fff !important;
+}
+
+/* .fc-button-group {
+  background-color: red !important;
+  border-radius: 5px;
+}
+
+.fc-prev-button,
+.fc-next-button {
+  background-color: red !important;
+  border: none;
+} */

@@ -1,0 +1,200 @@
+/* Imports */
+@import '../modules/fullcalendaryCustom.css';
+
+/* General */
+.transparent-container {
+  position: absolute;
+  top: 0;
+  z-index: 999;
+}
+.transparent-container #open-menu {
+  color: #fff;
+}
+.transparent-container .desktop-menu-link {
+  color: #fff !important;
+}
+.transparent-container .desktop-menu-links > a {
+  color: #fff;
+}
+.transparent-container .desktop-menu-links > i {
+  color: #fff;
+}
+.transparent-container >.user-name-desktop > a > i {
+  color: #fff;
+}
+
+.metologia-header-info-container {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0000006b;
+  background-image: url(../../images/metologia_2.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: overlay;
+  position: relative;
+}
+.metologia-header-title > h3 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+.container-calendar {
+  width: 90%;
+  height: max-content;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.tab-item {
+  width: 100%;
+  height: max-content;
+  margin-top: 45px;
+}
+.tab-item-title {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+.tab-item-description {
+  text-align: justify;
+}
+.tab-item-image {
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 5px solid #000;
+  margin-top: 20px;
+}
+.tab-item-image > img {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.metologia-acordeon-container {
+  width: 90%;
+  height: max-content;
+  margin: 0 auto;
+}
+.metologia-acordeon-content {
+  width: 100%;
+  height: 100%;
+}
+.metologia-acordeon-image {
+  width: 100%;
+  height: 400px;
+  margin: 50px 0px;
+}
+.metologia-acordeon-image > img {
+  width: 100%;
+  height: 100%;
+}
+.acordeon-head > h3 {
+  display: flex;
+  align-items: center;
+}
+.acordeon-item {
+  height: 25px;
+  overflow-y: hidden;
+  transition: ease-in-out 2.5s;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.acordeon-item.show {
+  height: 160px;
+  transition: ease-in-out .7s;
+  
+}
+.acordeon-body {
+  height: max-content;
+  padding: 10px 0px 20px 0px;
+}
+.acordeon-body > p {
+  text-align: justify;
+}
+
+@media screen and (min-width: 640px) {
+  .tab-item-image {
+    display: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .fc-header-toolbar {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-calendar {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .metologia-acordeon-container {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    margin-top: 75px;
+  }
+  .metologia-acordeon-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    position: relative;
+  }
+  .metologia-acordeon-image {
+    width: 50% !important;
+    height: 100%;
+    margin: 0px !important;
+  }
+  .metologia-acordeon-image > img {
+    min-height: 100% !important;
+    object-fit: cover;
+  }
+  .metologia-acordeon-items {
+    width: 45%;
+    height: max-content;
+    margin-right: 20px;
+    padding: 20px 0px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .tab-item-card { 
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .tab-item-image {
+    display: flex !important;
+  }
+  .tab-item-body {
+    width: 45%;
+    height: max-content;
+  }
+  .tab-item-image {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .metologia-acordeon-container {
+    height: 700px;
+  }
+  .acordeon-body {
+    padding: 10px 50px 10px 0px;
+  }
+  .acordeon-item.show {
+    height: 120px;
+  }
+}
