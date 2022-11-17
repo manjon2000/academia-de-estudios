@@ -7,14 +7,22 @@ include_once __DIR__ . '/../Utils/DB.php';
 class EmailDuplicate {
     
     public static function verifyEmail(string $email) {
-        $conxion = new DB();
-        $query = $conxion->connect()->query("SELECT email FROM users WHERE email = '".$email."'"); 
-        
-        if($query->num_rows <= 0) {
-            return true;
+        // Filtrar que es un email
+
+        if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            $conxion = new DB();
+            $query = $conxion->connect()->query("SELECT email FROM users WHERE email = '".$email."'"); 
+            
+            if($query->num_rows <= 0) {
+                return true;
+            } else {
+                return false;
+            }
         } else {
             return false;
+            die();
         }
+       
     }
 }
 

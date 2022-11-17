@@ -387,6 +387,16 @@
     background-blend-mode: overlay;
     border-radius: 5px;
     padding: 1rem 1.2rem;
+    position: relative;
+  }
+  .advantage-item > div {
+    position: absolute;
+    bottom: -100%;
+    transition: ease-in-out .5s;
+  }
+  .advantage-item:hover .advantage-item > div {
+    bottom: 0%;
+    transition: ease-in-out 1s;
   }
   .advantage-item-title,
   .advantage-item-description {
