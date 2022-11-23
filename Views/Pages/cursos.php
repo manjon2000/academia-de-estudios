@@ -1,114 +1,239 @@
-<?php include_once __DIR__ . '/Layouts/navbar-trasparent.php';?>
+<?php include_once __DIR__ . '/Layouts/navbar.php';?>
 <main role="main" class="main-container">
-    <section class="metologia-header-info-container">
-        <article class="metologia-header-title">
-          <h3>Cursos</h3>
+      <section class="course-collection-container">
+        <!-- Siderbar -->
+        <article class="course-collection-sidebar">
+          <section class="course-collection-sidebar-content">
+            <!-- Block input search -->
+            <div class="course-collection-sidebar-search">
+              <div class="course-collection-sidebar-search-input">
+                <input type="text" placeholder="Buscar curso..." />
+              </div>
+              <div class="course-collection-sidebar-search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <!-- Block input search -->
+
+            <!-- List course -->
+            <ul class="course-collection-sidebar-list">
+              <li class="course-collection-sidebar-list-item">
+                <a href="#">Todos los cursos</a>
+              </li>
+              <li class="course-collection-sidebar-list-item">
+                <a href="#">Ayuntamiento</a>
+              </li>
+              <li class="course-collection-sidebar-list-item">
+                <a href="#">Universidad</a>
+              </li>
+              <li class="course-collection-sidebar-list-item">
+                <a href="#">Servicios</a>
+              </li>
+            </ul>
+            <!-- List course -->
+          </section>
         </article>
-    </section>
+        <!-- End siderbar -->
 
-    <section class="info-course">
-      <article class="info-course-title">
-        <h3>Descubre todos nuestros cursos en solo un click.</h3>
-      </article>
-      <article class="info-course-description">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dignissimos ipsum ad fuga, neque placeat eaque voluptate, cupiditate quibusdam magni ab impedit incidunt illum tenetur magnam veritatis, adipisci vel ipsam iusto excepturi tempore. Tempore repudiandae consectetur porro corrupti perferendis exercitationem?
-        </p>
-      </article>
-    </section>
-      <section class="all-courses-container">
-        <article class="all-courses-content">
-             <!-- Item -->
-             <div class="home-tab-item">
-                <div class="home-tab-item-fav">
-                  <i class="fa-solid fa-heart"></i>
-                </div>
-                <div class="home-tab-item-time">
-                  <button class="">
-                    <i class="fa-regular fa-clock"></i>
-                    12/01/2026
-                  </button>
-                </div>
-                <div class="home-tab-item-title">
-                  <h3>Tropa Permanente Ejército</h3>
+        <!-- Courses -->
+        <article class="course-collection-courses">
+          <section class="course-collection-all">
+            <!-- Item -->
+            <div class="couse-collection">
+              <!-- Head -->
+              <div class="course-collection-head">
+                <div class="course-collection-image">
+                  <img src="./asset/images/bg-city.jpg" alt="Course #1" />
                 </div>
               </div>
-              <!-- Item -->
-              <div class="home-tab-item">
-                <div class="home-tab-item-fav">
-                  <i class="fa-solid fa-heart"></i>
-                </div>
-                <div class="home-tab-item-time">
-                  <button class="">
-                    <i class="fa-regular fa-clock"></i>
-                    12/01/2026
-                  </button>
-                </div>
-                <div class="home-tab-item-title">
-                  <h3>Maestros de Audición y Lenguaje</h3>
+              <!-- body -->
+              <div class="course-collection-body">
+                <div class="course-info-block">
+                  <h3>Lorem, ipsum dolor.</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Minus error modi ipsam, aut laboriosam assumenda.
+                  </p>
+                  <a href="./details.html">Ver detalles</a>
                 </div>
               </div>
-              <!-- Item -->
-              <div class="home-tab-item">
-                <div class="home-tab-item-fav">
-                  <i class="fa-solid fa-heart"></i>
-                </div>
-                <div class="home-tab-item-time">
-                  <button class="">
-                    <i class="fa-regular fa-clock"></i>
-                    12/01/2026
-                  </button>
-                </div>
-                <div class="home-tab-item-title">
-                  <h3>Policia Nacional</h3>
+              <!-- Footer -->
+              <div class="course-collection-footer">
+                <div class="course-footer-block">
+                  <div class="day-test">
+                    <p>24/04/2054</p>
+                  </div>
+                  <div class="time-course">
+                    <p>300h</p>
+                  </div>
                 </div>
               </div>
-              <!-- Item -->
-              <div class="home-tab-item">
-                <div class="home-tab-item-fav">
-                  <i class="fa-solid fa-heart"></i>
-                </div>
-                <div class="home-tab-item-time">
-                  <button class="">
-                    <i class="fa-regular fa-clock"></i>
-                    12/01/2026
-                  </button>
-                </div>
-                <div class="home-tab-item-title">
-                  <h3>Policia Nacional</h3>
+            </div>
+            <!-- End item -->
+            <!-- Item -->
+            <div class="couse-collection">
+              <!-- Head -->
+              <div class="course-collection-head">
+                <div class="course-collection-image">
+                  <img src="./asset/images/bg-city.jpg" alt="Course #1" />
                 </div>
               </div>
-              <!-- Item -->
-              <div class="home-tab-item">
-                <div class="home-tab-item-fav">
-                  <i class="fa-solid fa-heart"></i>
-                </div>
-                <div class="home-tab-item-time">
-                  <button class="">
-                    <i class="fa-regular fa-clock"></i>
-                    12/01/2026
-                  </button>
-                </div>
-                <div class="home-tab-item-title">
-                  <h3>Policia Nacional</h3>
+              <!-- body -->
+              <div class="course-collection-body">
+                <div class="course-info-block">
+                  <h3>Lorem, ipsum dolor.</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Minus error modi ipsam, aut laboriosam assumenda.
+                  </p>
+                  <a href="./details.html">Ver detalles</a>
                 </div>
               </div>
-              <!-- Item -->
-              <div class="home-tab-item">
-                <div class="home-tab-item-fav">
-                  <i class="fa-solid fa-heart"></i>
-                </div>
-                <div class="home-tab-item-time">
-                  <button class="">
-                    <i class="fa-regular fa-clock"></i>
-                    12/01/2026
-                  </button>
-                </div>
-                <div class="home-tab-item-title">
-                  <h3>Policia Nacional</h3>
+              <!-- Footer -->
+              <div class="course-collection-footer">
+                <div class="course-footer-block">
+                  <div class="day-test">
+                    <p>24/04/2054</p>
+                  </div>
+                  <div class="time-course">
+                    <p>300h</p>
+                  </div>
                 </div>
               </div>
+            </div>
+            <!-- End item -->
+            <!-- Item -->
+            <div class="couse-collection">
+              <!-- Head -->
+              <div class="course-collection-head">
+                <div class="course-collection-image">
+                  <img src="./asset/images/bg-city.jpg" alt="Course #1" />
+                </div>
+              </div>
+              <!-- body -->
+              <div class="course-collection-body">
+                <div class="course-info-block">
+                  <h3>Lorem, ipsum dolor.</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Minus error modi ipsam, aut laboriosam assumenda.
+                  </p>
+                  <a href="./details.html">Ver detalles</a>
+                </div>
+              </div>
+              <!-- Footer -->
+              <div class="course-collection-footer">
+                <div class="course-footer-block">
+                  <div class="day-test">
+                    <p>24/04/2054</p>
+                  </div>
+                  <div class="time-course">
+                    <p>300h</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End item -->
 
-            </article>
+            <!-- Item -->
+            <div class="couse-collection">
+              <!-- Head -->
+              <div class="course-collection-head">
+                <div class="course-collection-image">
+                  <img src="./asset/images/bg-city.jpg" alt="Course #1" />
+                </div>
+              </div>
+              <!-- body -->
+              <div class="course-collection-body">
+                <div class="course-info-block">
+                  <h3>Lorem, ipsum dolor.</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Minus error modi ipsam, aut laboriosam assumenda.
+                  </p>
+                  <a href="./details.html">Ver detalles</a>
+                </div>
+              </div>
+              <!-- Footer -->
+              <div class="course-collection-footer">
+                <div class="course-footer-block">
+                  <div class="day-test">
+                    <p>24/04/2054</p>
+                  </div>
+                  <div class="time-course">
+                    <p>300h</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End item -->
+            <!-- Item -->
+            <div class="couse-collection">
+              <!-- Head -->
+              <div class="course-collection-head">
+                <div class="course-collection-image">
+                  <img src="./asset/images/bg-city.jpg" alt="Course #1" />
+                </div>
+              </div>
+              <!-- body -->
+              <div class="course-collection-body">
+                <div class="course-info-block">
+                  <h3>Lorem, ipsum dolor.</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Minus error modi ipsam, aut laboriosam assumenda.
+                  </p>
+                  <a href="./details.html">Ver detalles</a>
+                </div>
+              </div>
+              <!-- Footer -->
+              <div class="course-collection-footer">
+                <div class="course-footer-block">
+                  <div class="day-test">
+                    <p>24/04/2054</p>
+                  </div>
+                  <div class="time-course">
+                    <p>300h</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End item -->
+            <!-- Item -->
+            <div class="couse-collection">
+              <!-- Head -->
+              <div class="course-collection-head">
+                <div class="course-collection-image">
+                  <img src="./asset/images/bg-city.jpg" alt="Course #1" />
+                </div>
+              </div>
+              <!-- body -->
+              <div class="course-collection-body">
+                <div class="course-info-block">
+                  <h3>Lorem, ipsum dolor.</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Minus error modi ipsam, aut laboriosam assumenda.
+                  </p>
+                  <a href="./details.html">Ver detalles</a>
+                </div>
+              </div>
+              <!-- Footer -->
+              <div class="course-collection-footer">
+                <div class="course-footer-block">
+                  <div class="day-test">
+                    <p>24/04/2054</p>
+                  </div>
+                  <div class="time-course">
+                    <p>300h</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End item -->
+          </section>
+        </article>
+        <!-- End courses -->
       </section>
-  </main>
+
+    </main>

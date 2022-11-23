@@ -82,12 +82,12 @@
             <!-- Item Mobile -->
             <div
               class="slider-clients-reviews fade"
-              style="background-image: url('/asset/images/bg-slider.jpg')"
+              style="background-image: url('../Public/assets/images/bg-slider.jpg')"
             >
               <!-- Body reviews -->
               <div class="slider-clients-body">
                 <div class="slider-clients-title">
-                  <h3>Albert Manjon Jurado</h3>
+                  <h3>Zoe Mcdowell</h3>
                 </div>
                 <div class="slider-clients-description">
                   <p>
@@ -107,12 +107,12 @@
             <!-- Item Mobile -->
             <div
               class="slider-clients-reviews fade"
-              style="background-image: url('/asset/images/metologia.jpg')"
+              style="background-image: url('../Public/assets/images/bg-slider.jpg')"
             >
               <!-- Body reviews -->
               <div class="slider-clients-body">
                 <div class="slider-clients-title">
-                  <h3>Albert Manjon</h3>
+                  <h3>Calista Bean</h3>
                 </div>
                 <div class="slider-clients-description">
                   <p>
@@ -131,12 +131,12 @@
             <!-- Item Mobile -->
             <div
               class="slider-clients-reviews fade"
-              style="background-image: url('/asset/images/metologia_2.jpg')"
+              style="background-image: url('../Public/assets/images/bg-slider.jpg')"
             >
               <!-- Body reviews -->
               <div class="slider-clients-body">
                 <div class="slider-clients-title">
-                  <h3>Albert Jurado</h3>
+                  <h3>Elijah Randolph</h3>
                 </div>
                 <div class="slider-clients-description">
                   <p>
@@ -192,67 +192,79 @@
         <article class="advantage-container-flex-mobile">
           <!-- Item -->
           <div class="advantage-item">
-            <div class="advantage-item-title">
-              <h3>Lorem ipsum</h3>
+            <div class="advantage-body">
+              <div class="advantage-item-title">
+                <h3>Administrativo</h3>
+              </div>
+              <div class="advantage-item-description">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+                  ipsam impedit dicta incidunt, consectetur rem beatae magni.
+                  Eligendi, laudantium vero?
+                </p>
+              </div>
+              <div class="advantage-item-button">
+                <a href="#">Contactanos para mas informacion</a>
+              </div>
             </div>
-            <div class="advantage-item-description">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-                ipsam impedit dicta incidunt, consectetur rem beatae magni.
-                Eligendi, laudantium vero?
-              </p>
-            </div>
-            <div class="advantage-item-button">
-              <a href="#">Contactanos para mas informacion</a>
-            </div>
+
           </div>
-          <!-- Item -->
-          <div class="advantage-item">
-            <div class="advantage-item-title">
-              <h3>Lorem ipsum</h3>
+           <!-- Item -->
+           <div class="advantage-item">
+            <div class="advantage-body">
+              <div class="advantage-item-title">
+                <h3>Policia Nacional</h3>
+              </div>
+              <div class="advantage-item-description">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+                  ipsam impedit dicta incidunt, consectetur rem beatae magni.
+                  Eligendi, laudantium vero?
+                </p>
+              </div>
+              <div class="advantage-item-button">
+                <a href="#">Contactanos para mas informacion</a>
+              </div>
             </div>
-            <div class="advantage-item-description">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-                ipsam impedit dicta incidunt, consectetur rem beatae magni.
-                Eligendi, laudantium vero?
-              </p>
-            </div>
-            <div class="advantage-item-button">
-              <a href="#">Contactanos para mas informacion</a>
-            </div>
+
           </div>
-          <!-- Item -->
-          <div class="advantage-item">
-            <div class="advantage-item-title">
-              <h3>Lorem ipsum</h3>
+           <!-- Item -->
+           <div class="advantage-item">
+            <div class="advantage-body">
+              <div class="advantage-item-title">
+                <h3>Unión Europea</h3>
+              </div>
+              <div class="advantage-item-description">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+                  ipsam impedit dicta incidunt, consectetur rem beatae magni.
+                  Eligendi, laudantium vero?
+                </p>
+              </div>
+              <div class="advantage-item-button">
+                <a href="#">Contactanos para mas informacion</a>
+              </div>
             </div>
-            <div class="advantage-item-description">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-                ipsam impedit dicta incidunt, consectetur rem beatae magni.
-                Eligendi, laudantium vero?
-              </p>
-            </div>
-            <div class="advantage-item-button">
-              <a href="#">Contactanos para mas informacion</a>
-            </div>
+
           </div>
-          <!-- Item -->
-          <div class="advantage-item">
-            <div class="advantage-item-title">
-              <h3>Lorem ipsum</h3>
+           <!-- Item -->
+           <div class="advantage-item">
+            <div class="advantage-body">
+              <div class="advantage-item-title">
+                <h3>Forestales</h3>
+              </div>
+              <div class="advantage-item-description">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+                  ipsam impedit dicta incidunt, consectetur rem beatae magni.
+                  Eligendi, laudantium vero?
+                </p>
+              </div>
+              <div class="advantage-item-button">
+                <a href="#">Contactanos para mas informacion</a>
+              </div>
             </div>
-            <div class="advantage-item-description">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-                ipsam impedit dicta incidunt, consectetur rem beatae magni.
-                Eligendi, laudantium vero?
-              </p>
-            </div>
-            <div class="advantage-item-button">
-              <a href="#">Contactanos para mas informacion</a>
-            </div>
+
           </div>
         </article>
         <article class="advantage-container-flex-desktop">
@@ -263,12 +275,12 @@
                 <i class="fa-solid fa-eye"></i>
               </div>
               <div class="title-item-desktop">
-                <h3>Universidades</h3>
+                <h3>Ejército</h3>
               </div>
             </div>
             <div class="more-details-item disable">
               <div class="title-details">
-                <h3>Lorem, ipsum.</h3>
+                <h3>Ejército.</h3>
               </div>
               <div class="description-details">
                 <p>
@@ -277,7 +289,7 @@
                 </p>
               </div>
               <div class="button-details">
-                
+
               </div>
             </div>
           </div>
@@ -288,12 +300,12 @@
                 <i class="fa-solid fa-eye"></i>
               </div>
               <div class="title-item-desktop">
-                <h3>Medio Ambiente</h3>
+                <h3>Administrativo</h3>
               </div>
             </div>
             <div class="more-details-item disable">
               <div class="title-details">
-                <h3>Lorem, ipsum.</h3>
+                <h3>Administrativo.</h3>
               </div>
               <div class="description-details">
                 <p>
@@ -311,12 +323,12 @@
                 <i class="fa-solid fa-eye"></i>
               </div>
               <div class="title-item-desktop">
-                <h3>Medio Ambiente</h3>
+                <h3>Policia Nacional</h3>
               </div>
             </div>
             <div class="more-details-item disable">
               <div class="title-details">
-                <h3>Lorem, ipsum.</h3>
+                <h3>Policia Nacional.</h3>
               </div>
               <div class="description-details">
                 <p>
@@ -334,12 +346,12 @@
                 <i class="fa-solid fa-eye"></i>
               </div>
               <div class="title-item-desktop">
-                <h3>Medio Ambiente</h3>
+                <h3>Unión Europea</h3>
               </div>
             </div>
             <div class="more-details-item disable">
               <div class="title-details">
-                <h3>Lorem, ipsum.</h3>
+                <h3>Unión Europea.</h3>
               </div>
               <div class="description-details">
                 <p>
@@ -387,7 +399,7 @@
       </section>
       <!-- End sorteo -->
 
-      
+
       <!-- Tab categorias cursos -->
       <section class="tab-category-courses">
         <!-- Container botones tab -->
@@ -546,7 +558,3 @@
       </section>
       <!-- Tab categorias cursos -->
     </main>
-
-
-
-

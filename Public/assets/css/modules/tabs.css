@@ -34,7 +34,7 @@
   border-radius: 100%;
 }
 .home-buttons-tab-item.actived {
-  background-color: #F46060;
+  background-color: #FF1E56;
   transition: background ease-in-out .6s;
 }
 .home-buttons-tab-item.actived > a {
@@ -83,12 +83,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #F46060;
+  color: #FF1E56;
   cursor: pointer;
   transition: ease-in-out .7s;
 }
 .home-tab-item-fav:hover {
-  background-color: #F46060;
+  background-color: #FF1E56;
   color: #fff;
   transition: ease-in-out .9s;
 }
@@ -100,7 +100,7 @@
   height: 35px;
   outline: none;
   border: none;
-  background-color: #F46060;
+  background-color: #FF1E56;
   border-radius: 5px;
   color: #fff;
   font-size: .9rem;

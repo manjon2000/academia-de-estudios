@@ -33,7 +33,7 @@
                                 <img src="https://picsum.photos/200" width="30" />
                                 </div>
                                 <div class="user-name-mobile">
-                                    <a href="http://localhost:9000/?page=logout">Pepe Alv</a>
+                                    <a href="http://localhost:9000/?page=logout"><?php echo $_SESSION['user']['name']; ?></a>
                                 </div>
                             </div>
                             </li>

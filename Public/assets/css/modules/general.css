@@ -15,6 +15,7 @@ body {
   --font_title_h3: 1rem;
   --widthTab: 0px;
   --widthTabLink: 140px;
+  --colorRed: #ff2f65;
 }
 @media screen and (min-width: 640px) {
   :root {

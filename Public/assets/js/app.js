@@ -68,12 +68,14 @@ document.addEventListener("DOMContentLoaded", () => {
  */
 
   // Abrir menu mobile
-  openMenu.addEventListener("click", () => {
-    menuMobile.classList.toggle("actived");
-    setTimeout(() => {
-      menuMobile.classList.toggle("change-color-menu");
-    }, 1000);
-  });
+  if (openMenu) {
+    openMenu.addEventListener("click", () => {
+      menuMobile.classList.toggle("actived");
+      setTimeout(() => {
+        menuMobile.classList.toggle("change-color-menu");
+      }, 1000);
+    });
+  }
 
   // Open modal info user Desktop
 
@@ -86,19 +88,35 @@ document.addEventListener("DOMContentLoaded", () => {
   /**
    * Effect hover in cards advantage (home)
    */
+  const containerCategoryItems = document.querySelector(
+    ".advantage-container-flex-desktop"
+  );
 
-  categoryItems.forEach((element) => {
-    element.addEventListener("mouseenter", function (e) {
-      removeClass(categoryItems, "disable");
-      removeClass(categoryItems, "hidden");
-
-      this.childNodes[3].classList.remove("disable");
-      this.childNodes[1].classList.add("disable");
-      this.childNodes[1].classList.add("hidden");
+  if (categoryItems) {
+    categoryItems.forEach((element) => {
+      element.addEventListener("mouseenter", function (e) {
+        removeClass(categoryItems, "disable");
+        removeClass(categoryItems, "hidden");
+        this.childNodes[3].classList.remove("disable");
+        this.childNodes[1].classList.add("disable");
+        this.childNodes[1].classList.add("hidden");
+      });
     });
-  });
+  }
+
+  if (containerCategoryItems) {
+    containerCategoryItems.addEventListener("mouseleave", function (e) {
+      removeAllClass(categoryItems, "disable");
+      removeAllClass(categoryItems, "hidden");
+    });
+  }
 
   function removeClass(items, removeClass) {
+    items.forEach((element) => {
+      element.childNodes[1].classList.remove(removeClass);
+    });
+  }
+  function removeAllClass(items, removeClass) {
     items.forEach((element) => {
       element.childNodes[1].classList.remove(removeClass);
     });
@@ -123,7 +141,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // Toggle acordeon
   elementsAcordeon.forEach((item) => {
     item.addEventListener("click", function (e) {
-      console.log(this);
       //Remove class .show to all elements
       deleteAllClass(elementsAcordeon, "show");
       //Add class element
@@ -193,6 +210,9 @@ document.addEventListener("DOMContentLoaded", () => {
         this.classList.add("actived");
       });
     });
+    window.addEventListener('resize', (e) => {
+      PropertyValueRootLinks(propietyRoot, `${itemsTabs[0].clientWidth}px`);
+    })
 
     tabFuncion(itemsTabHome);
   }
@@ -240,7 +260,6 @@ document.addEventListener("DOMContentLoaded", () => {
     ".course-content-hidden-accordion"
   );
 
-  acordionDetailsItems[0].classList.add("is-show");
   acordionDetails.forEach((element, ine) => {
     element.addEventListener("click", function (e) {
       deleteClassAcordion(acordionDetailsItems);

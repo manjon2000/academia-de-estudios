@@ -6,8 +6,13 @@
    * Mobile Slider
    */
 
+   let slides = document.getElementsByClassName("slider-clients-reviews");
    let slideIndex = 1;
-   showSlides(slideIndex);
+   
+   if( slides ) {
+    showSlides(slideIndex);
+   }
+  
  
    function plusSlides(n) {
      showSlides((slideIndex += n));
@@ -15,7 +20,7 @@
  
    function showSlides(n) {
      let i;
-     let slides = document.getElementsByClassName("slider-clients-reviews");
+     
      if (n > slides.length) {
        slideIndex = 1;
      }

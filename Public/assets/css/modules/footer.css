@@ -1,7 +1,7 @@
 .footer-container {
   width: 100%;
   height: max-content;
-  background-color: #F2F2F2;;
+  background-color: #000000;
   padding: 20px 0px;
 }
 .footer-links {
@@ -16,6 +16,7 @@
 .footer-menu > a {
   margin-bottom: 20px;
   font-weight: 500;
+  color: #FFF;
 }
 .footer-rrss > a {
   font-size: 1.5rem;
@@ -25,9 +26,15 @@
 .footer-rrss > a:last-child {
   margin-right: 0px;
 }
+.footer-rrss > a > i {
+  color: #FFF;
+}
 .footer-copyright {
   margin: 20px 0px;
   text-align: center;
+}
+.footer-copyright > p {
+  color: #FFF;
 }
 .footer-copyright > p > a {
   color: red;

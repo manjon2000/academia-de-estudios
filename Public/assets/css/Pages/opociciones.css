@@ -28,7 +28,7 @@
     width: 100%;
     min-height: 50px;
     color: #fff ;
-    background: #323232;
+    background: #000000;
     padding: 20px 10px;
     border-radius: 5px;
 }
@@ -65,7 +65,6 @@
     visibility: hidden;
     opacity: 0;
     margin-top: 20px;
-    background: rgba(217, 217, 217, 0.1);
     border-radius: 5px;
 }
 .opociciones-info-card-body-button-groups {

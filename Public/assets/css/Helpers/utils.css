@@ -50,7 +50,7 @@
 }
 
 .button-bg {
-  background-color: #F95959;
+  background-color: #FF1E56;
   border: 1px solid #0000;
   transition: ease-in-out .8s;
 }
@@ -66,7 +66,7 @@
 }
 
 .button-bg-hover:hover {
-  background-color: #F95959;
+  background-color: #FF1E56;
   transition: ease-in-out 1s;
 }
 
@@ -81,13 +81,13 @@
 }
 
 .desktop-buttons-menu>.button-bg:hover {
-  border: 1px solid #F95959;
-  color: #F95959;
+  border: 1px solid #FF1E56;
+  color:   #FF1E56;
 }
 
 .desktop-buttons-menu>.button-bg-hover {
-  border: 1px solid #F95959;
-  color: #F95959;
+  border: 1px solid   #FF1E56;
+  color:   #FF1E56;
 }
 
 .desktop-buttons-menu>.button-bg-hover:hover {
