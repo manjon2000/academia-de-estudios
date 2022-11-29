@@ -14,7 +14,6 @@ class Views {
 
     private function verifyPage(String $page) {
         $filename = __DIR__ . "/Pages/".trim($page).".php";
-        clearstatcache();
         return file_exists($filename);        
     }
 
