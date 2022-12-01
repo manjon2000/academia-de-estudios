@@ -1,17 +1,17 @@
 # Documentacion 
 
 ### Crear base de datos
-
-
+>Crear tabla:
 ```sql
-    Crear tabla:
-    CREATE DATABASE ProyectoTokioSchool;
+CREATE DATABASE ProyectoTokioSchool;
+```
+>Entrar en la base de datos::
+```sql
+use ProyectoTokioSchool;
+```
+>Crear tabla ususarios:
+```sql
 
-    Entrar en la base de datos:
-    use ProyectoTokioSchool;
-
-
-    Crear tabla ususarios:
     CREATE TABLE users (
         id  INT unsigned NOT NULL AUTO_INCREMENT,
         name VARCHAR(255),
@@ -20,20 +20,20 @@
         password TEXT,
         PRIMARY KEY (id)
     )
-
 ```
+---
 
-### o subir archivo a phpmyadmin:
+# o subir archivo a phpmyadmin:
 >
 > Nos dirigimos a **IMPORTAR**
 > 
 > Damos click a **browser** y buscaremos el archivo **database.sql**
 >
 > A continuacion le daremos al boton de **GO**
-![alt text](/Public/assets/images/readme/image-1.png)
-
-### Cambiar parametros de la base de datos
-> `/config/Settings.php`
+![update file in phpmyadmin](./public/assets/images/readme/image-1.png)
+---
+# Cambiar parametros de la base de datos
+>/config/Settings.php
 
 ```php
 
@@ -45,7 +45,13 @@
   ));
 
 ```
+---
+# Iniciar proyecto en Local
 
-### Inicializar proyecto en Local
-
-`php -S localhost:9000 -t .`
+>php -S localhost:9000 -t ./public
+---
+# Author
+> Albert.J.Manjon - [Contact me through linkedin](https://www.linkedin.com/in/albert-jurado-manjon-0878b2198/)
+---
+# License
+>Licensed under the MIT License.

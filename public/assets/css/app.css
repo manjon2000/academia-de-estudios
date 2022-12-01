@@ -1,0 +1,35 @@
+/* Pages */
+@import "Pages/home.css";
+@import "Pages/metodologia.css";
+@import "Pages/cursos.css";
+@import "Pages/opociciones.css";
+@import "Pages/details.css";
+@import "Pages/contacto.css";
+@import "Pages/404.css";
+@import "Pages/politics.css";
+/* Modules */
+@import "./modules/general.css";
+@import "./modules/navbar.css";
+@import "./modules/footer.css";
+@import "./modules/cookies.css";
+
+/* Helpers */
+@import "./Helpers/utils.css";
+
+/* Colors
+____________
+  #000000  |
+  #323232  |
+  #FF1E56  |
+  #FFAC41  |
+____________
+*/
+
+/*
+*   Media queries Responsive
+*   @media (min-width: 640px) { ... }
+*   @media (min-width: 768px) { ... }
+*   @media (min-width: 1024px) { ... }
+*   @media (min-width: 1280px) { ... }
+*   @media (min-width: 1536px) { ... }
+*/

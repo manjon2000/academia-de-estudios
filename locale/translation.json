@@ -1,0 +1,14 @@
+{
+    "title": {
+        "metologia":    "Metología",
+        "oposiciones":  "Oposiciones",
+        "cursos":       "Cursos",
+        "contacto":     "Contacto",
+        "details":      "Detalles",
+        "login":        "Inicia Session",
+        "register":     "Registrarse",
+        "privacidad":   "Politica de Privacidad",
+        "legal":        "Aviso Legal",
+        "cookies":      "Politica de Cookies"
+    }
+}
