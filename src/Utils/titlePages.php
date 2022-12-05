@@ -1,6 +1,6 @@
 <?php
 
-class titlePages {
+final class titlePages {
     public static function getTitlePage(String $title): ?String  {
 
         $file = file_get_contents(__DIR__ . '/../../locale/translation.json');

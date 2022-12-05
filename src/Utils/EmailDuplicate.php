@@ -2,9 +2,9 @@
 
 include_once __DIR__ . '/../Utils/DB.php';
 
-class EmailDuplicate {
+final class EmailDuplicate {
 
-    public static function verifyEmail(string $email) {
+    public static function verifyEmail(string $email): bool {
         // Filtrar que es un email
 
         if (filter_var($email, FILTER_VALIDATE_EMAIL)) {

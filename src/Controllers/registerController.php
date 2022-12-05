@@ -3,7 +3,7 @@
 include_once __DIR__ . '/../Utils/PasswordCipher.php';
 include_once __DIR__ . '/../Models/registerModel.php';
 
-class registerController
+final class registerController
 {
 
     public $dataUser = [];

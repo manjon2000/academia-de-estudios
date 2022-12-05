@@ -9,7 +9,7 @@ require_once __DIR__ . '/../Utils/PasswordCipher.php';
 
 
 
-class loginModel {
+final class loginModel {
 
 
     public static function userLogin(string $email) {

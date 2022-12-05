@@ -2,7 +2,7 @@
 
 include_once __DIR__ . '/../Config/Settings.php';
 
-class DB {
+final class DB {
 
     public string $host     = DB_SETTINGS['HOST'];
     public string $user     = DB_SETTINGS['USER'];

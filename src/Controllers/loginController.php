@@ -7,7 +7,7 @@ unset($_SESSION['error-email']);
 unset($_SESSION['not-exist-user']);
 unset($_SESSION['error-password']);
 
-class loginController {
+final class loginController {
 
     public function __construct(
         public readonly string $email,
