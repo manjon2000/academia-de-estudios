@@ -1,17 +1,17 @@
 .politics-content {
-    width: 90%;
-    height: max-content;
-    margin: 0 auto;
-    margin-bottom: 5rem;
+  width: 90%;
+  height: max-content;
+  margin: 0 auto;
+  margin-bottom: 5rem;
 }
 .politics-content > article {
-    margin-bottom: 1.2rem;
+  margin-bottom: 1.2rem;
 }
 
 .politics-content > .block-politics {
-    margin-top: 1.2rem;
+  margin-top: 1.2rem;
 }
 .politics-content > .block-politics,
 .politics-content > .block-politics > h3 {
-    margin-bottom: 2rem;
-} 
+  margin-bottom: 2rem;
+}

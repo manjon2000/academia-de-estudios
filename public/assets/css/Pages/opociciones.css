@@ -1,132 +1,150 @@
 .opciciones-info-container {
-    width: 90%;
-    height: max-content;
-    margin: 0 auto;
-    margin-top: 50px;
+  width: 90%;
+  height: max-content;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.info-container.wave-contaier {
+  background-image: url(../../images/bg-oposiciones.jpg);
 }
 .opciciones-info-body {
-    width: 100%;
-    height: 100%;
-    margin-bottom: 40px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 40px;
 }
 .opociciones-info-title {
-    font-size: 1.4rem;
-    margin-bottom: 15px;
+  font-size: var(--font_title_h2);
+  margin-bottom: 10px;
 }
 .opociciones-info-more-description > p {
-    text-align: justify;
+  text-align: justify;
+  color: #323232;
+  font-size: 0.9rem;
 }
 .opociciones-info-content-flex {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 .opociciones-info-card {
-    width: 100%;
-    height: max-content;
-    cursor: pointer;
+  width: 100%;
+  height: max-content;
+  cursor: pointer;
 }
 .opociciones-info-card-head {
-    width: 100%;
-    min-height: 50px;
-    color: #fff ;
-    background: #000000;
-    padding: 20px 10px;
-    border-radius: 5px;
+  width: 100%;
+  min-height: 50px;
+  color: #fff;
+  background: #000000;
+  padding: 20px 10px;
+  border-radius: 5px;
 }
 .opociciones-info-card-head-content {
-    width: 90%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    margin: 0 auto;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 0 auto;
 }
 .opociciones-info-card-head-icon {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    transition: ease-in-out .8s;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  transition: ease-in-out 0.8s;
 }
 .opociciones-info-card-head-title > p {
-    font-size: small;
+  font-size: small;
 }
 .opociciones-info-card:hover .opociciones-info-card-head-icon {
-    background-color: #FF1E56;
-    transition: ease-in-out .8s;
+  background-color: #ff1e56;
+  transition: ease-in-out 0.8s;
 }
 .opociciones-info-card-body {
-    width: 100%;
-    height: 0px;
-    padding: 20px 15px;
-    overflow: hidden;
-    visibility: hidden;
-    opacity: 0;
-    margin-top: 20px;
-    border-radius: 5px;
+  width: 100%;
+  height: 0px;
+  padding: 20px 15px;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.opociciones-info-card-body-title > h3 {
+  font-size: var(--font_title_h3);
+  margin-bottom: .5rem;
+}
+.opociciones-info-card-body-description > p {
+  color: #323232;
+  font-size: 0.9rem;
+}
+@media (min-width: 1024px) {
+  .opociciones-info-card-body-description > p {
+      width: 75ch;
+  }
 }
 .opociciones-info-card-body-button-groups {
-    width: 100%;
-    height: max-content;
-    display: flex;
-    align-items: center;
-    gap: 1.2rem;
-    margin-top: 20px;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-top: 20px;
 }
 .btn-outline-grey {
-    border: 1px solid rgb(217, 217, 217);
-    text-decoration: solid !important;
-    padding: 8px 10px;
-    border-radius: 5px;
-    color: #1c1c1c;
-    transition: ease-in-out .4s;
+  border: 1px solid rgb(217, 217, 217);
+  text-decoration: solid !important;
+  padding: 8px 10px;
+  border-radius: 5px;
+  color: #1c1c1c;
+  transition: ease-in-out 0.4s;
 }
 .btn-outline-grey:hover {
-    border: 1px solid rgb(243, 75, 75);
-    color: #fff;
-    background-color: #FF1E56;
-    transition: ease-in-out .4s;
+  border: 1px solid rgb(243, 75, 75);
+  color: #fff;
+  background-color: #ff1e56;
+  transition: ease-in-out 0.4s;
 }
 .btn-primary {
-    border: 1px solid rgb(243, 75, 75);
-    padding: 8px 10px;
-    border-radius: 5px;
-    color: #fff;
-    background-color: #FF1E56;
-    transition: ease-in-out .4s;
+  border: 1px solid rgb(243, 75, 75);
+  padding: 8px 10px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #ff1e56;
+  transition: ease-in-out 0.4s;
 }
 .btn-primary:hover {
-    background-color: transparent;
-    color: #FF1E56;
-    transition: ease-in-out .6s;
+  background-color: transparent;
+  color: #ff1e56;
+  transition: ease-in-out 0.6s;
 }
 .opociciones-info-card-head-subtitle {
-    display: none;
+  display: none;
 }
 
-@media screen and ( min-width: 768px ) {
-   .opociciones-info-card-head-subtitle {
+@media screen and (min-width: 768px) {
+  .opociciones-info-card-head-subtitle {
     width: 60%;
     height: max-content;
     display: flex;
     align-items: center;
     justify-content: end;
-   } 
-   .opociciones-info-card-head-title > p {
+  }
+  .opociciones-info-card-head-title > p {
     display: none;
-   }
+  }
 }
 
-@media screen and ( min-width: 1024px ) {
-    .opociciones-info-card-head-subtitle {
-        width: 70%;
-    }
+@media screen and (min-width: 1024px) {
+  .opociciones-info-card-head-subtitle {
+    width: 70%;
+  }
 }
 
-@media screen and ( min-width: 1280px ) {
-    .opociciones-info-card-head-subtitle {
-        width: 75%;
-    }
+@media screen and (min-width: 1280px) {
+  .opociciones-info-card-head-subtitle {
+    width: 75%;
+  }
 }

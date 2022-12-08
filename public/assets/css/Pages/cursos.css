@@ -1,49 +1,48 @@
-@import '../modules/sidebar.css';
-@import '../modules/card-course.css';
+@import "../modules/sidebar.css";
+@import "../modules/card-course.css";
 .course-collection-container {
-    width: 90%;
-    height: max-content;
-    margin: 0 auto;
+  width: 90%;
+  height: max-content;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
-    .course-collection-container {
-        display: grid;
-        grid-template-columns: 30% 65%;
-        grid-gap: 3rem;
-    }
+  .course-collection-container {
+    display: grid;
+    grid-template-columns: 30% 65%;
+    grid-gap: 3rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .course-collection-container {
-        display: grid;
-        grid-template-columns: 20% 75%;
-        grid-gap: 3rem;
-    }
+  .course-collection-container {
+    display: grid;
+    grid-template-columns: 20% 75%;
+    grid-gap: 3rem;
+  }
 }
-
 
 /* Block info*/
 .course-info-container {
-    width: 100%;
-    min-height: 300px;
+  width: 100%;
+  min-height: 300px;
 }
 .course-info-content {
-    width: 90%;
-    height: 100%;
-    margin: 2rem auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-flow: column-reverse nowrap;
+  width: 90%;
+  height: 100%;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: column-reverse nowrap;
 }
 .course-info-image {
-    width: 90%;
-    height: 300px;
-    margin-top: 1.2rem;
+  width: 90%;
+  height: 300px;
+  margin-top: 1.2rem;
 }
 .course-info-image > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

@@ -1,79 +1,142 @@
 [
   {
-    "title": "Event 1",
+    "title": "Classe 1",
     "start": "2022-10-01"
   },
   {
-    "title": "Event 2",
+    "title": "Classe 2",
     "start": "2022-10-05"
   },
   {
-    "title": "Event 3",
+    "title": "Classe 3",
     "start": "2022-10-15"
   },
   {
-    "title": "Event 4",
+    "title": "Classe 4",
     "start": "2022-10-25"
   },
   {
-    "title": "Event 5",
+    "title": "Classe 5",
     "start": "2022-11-05"
   },
   {
-    "title": "Event 6",
+    "title": "Classe 6",
     "start": "2022-11-15"
   },
   {
-    "title": "Event 7",
+    "title": "Classe 7",
     "start": "2022-11-25"
   },
   {
-    "title": "Event 8",
+    "title": "Classe 8",
     "start": "2022-12-05"
   },
   {
-    "title": "Event 9",
+    "title": "Classe 9",
     "start": "2022-12-15"
   },
   {
-    "title": "Event 10",
-    "start": "2022-12-25",
-    "description": "Hello word"
+    "title": "Classe 10",
+    "start": "2022-12-25"
   },
   {
-    "title": "Event 11",
+    "title": "Classe 11",
     "start": "2023-01-05"
   },
   {
-    "title": "Event 12",
+    "title": "Classe 12",
     "start": "2023-01-15"
   },
   {
-    "title": "Event 13",
+    "title": "Classe 13",
     "start": "2023-01-25"
   },
   {
-    "title": "Event 14",
+    "title": "Classe 14",
     "start": "2023-01-30"
   },
   {
-    "title": "Event 15",
+    "title": "Classe 15",
     "start": "2023-02-05"
   },
   {
-    "title": "Event 16",
+    "title": "Classe 16",
     "start": "2023-02-15"
   },
   {
-    "title": "Event 17",
+    "title": "Classe 17",
     "start": "2023-02-25"
   },
   {
-    "title": "Event 18",
+    "title": "Classe 18",
     "start": "2023-03-05"
   },
   {
-    "title": "Event 19",
+    "title": "Classe 19",
     "start": "2023-03-15"
+  },
+  {
+    "title": "Classe 20",
+    "start": "2023-03-25"
+  },
+  {
+    "title": "Classe 21",
+    "start": "2023-04-05"
+  },
+  {
+    "title": "Classe 22",
+    "start": "2023-04-15"
+  },
+  {
+    "title": "Classe 23",
+    "start": "2023-04-25"
+  },
+  {
+    "title": "Classe 25",
+    "start": "2023-05-05"
+  },
+  {
+    "title": "Classe 26",
+    "start": "2023-05-15"
+  },
+  {
+    "title": "Classe 27",
+    "start": "2023-05-25"
+  },
+  {
+    "title": "Classe 28",
+    "start": "2023-06-05"
+  },
+  {
+    "title": "Classe 29",
+    "start": "2023-06-15"
+  },
+  {
+    "title": "Classe 30",
+    "start": "2023-06-25"
+  },
+  {
+    "title": "Classe 31",
+    "start": "2023-07-05"
+  },
+  {
+    "title": "Classe 32",
+    "start": "2023-07-15"
+  },
+  {
+    "title": "Classe 33",
+    "start": "2023-07-25"
+  },
+  {
+    "title": "Classe 34",
+    "start": "2023-08-05"
+  },
+  {
+    "title": "Classe 35",
+    "start": "2023-08-15"
+  },
+  {
+    "title": "Classe 36",
+    "start": "2023-08-25"
   }
 ]

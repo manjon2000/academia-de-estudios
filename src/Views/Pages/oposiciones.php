@@ -1,7 +1,7 @@
 <?php include_once __DIR__ . '/Layouts/navbar-trasparent.php';?>
 <main role="main" class="main-container">
 
-<section class="metologia-header-info-container wave-contaier">
+<section class="header-info-container wave-contaier">
     <article class="metologia-header-title">
         <h3>Opociciones</h3>
     </article>
@@ -33,7 +33,7 @@
                         <span class="material-icons">balance</span>
                         </div>
                         <div class="opociciones-info-card-head-title">
-                            <h4>Jueces y Fiscales</h4>
+                            <h4>C.G.Europea</h4>
                             <p>1 opocicion activa</p>
                         </div>
                         <div class="opociciones-info-card-head-subtitle">
@@ -44,7 +44,7 @@
 
                 <div class="opociciones-info-card-body show-tab">
                     <div class="opociciones-info-card-body-title">
-                        <h3>Jueces y Fiscales.</h3>
+                        <h3>C.G.Europe.</h3>
                     </div>
                     <div class="opociciones-info-card-body-description">
                         <p>
@@ -53,7 +53,7 @@
                     </div>
                     <div class="opociciones-info-card-body-button-groups">
                         <a class="btn-outline-grey" href="http://localhost:9000/?page=details">Ver detalles</a>
-                        <a class="btn-primary" href="#">Ver precios</a>
+                        <a class="btn-primary" href="http://localhost:9000/?page=contacto">contáctanos</a>
                     </div>
                 </div>
 
@@ -68,7 +68,7 @@
                         <span class="material-icons">balance</span>
                         </div>
                         <div class="opociciones-info-card-head-title">
-                            <h4>Seguridad</h4>
+                            <h4>Policia Local</h4>
                             <p>8 opocicion activa</p>
                         </div>
                         <div class="opociciones-info-card-head-subtitle">
@@ -79,7 +79,7 @@
 
                 <div class="opociciones-info-card-body">
                     <div class="opociciones-info-card-body-title">
-                        <h3>Fuerzas y Cuerpos de Seguridad.</h3>
+                        <h3>Fuerzas y Cuerpos de Seguridad & Policia.</h3>
                     </div>
                     <div class="opociciones-info-card-body-description">
                         <p>
@@ -88,7 +88,7 @@
                     </div>
                     <div class="opociciones-info-card-body-button-groups">
                         <a class="btn-outline-grey" href="http://localhost:9000/?page=details">Ver detalles</a>
-                        <a class="btn-primary" href="#">Ver precios</a>
+                        <a class="btn-primary" href="http://localhost:9000/?page=contacto">contáctanos</a>
                     </div>
                 </div>
 
@@ -123,7 +123,7 @@
                     </div>
                     <div class="opociciones-info-card-body-button-groups">
                         <a class="btn-outline-grey" href="http://localhost:9000/?page=details">Ver detalles</a>
-                        <a class="btn-primary" href="#">Ver precios</a>
+                        <a class="btn-primary" href="http://localhost:9000/?page=contacto">contáctanos</a>
                     </div>
                 </div>
 

@@ -38,6 +38,13 @@
                       obcaecati porro exercitationem voluptatibus.
                     </p>
                   </div>
+                  <div class="slider-clients-starts">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                  </div>
                 </section>
               </div>
               <!-- Item -->
@@ -52,6 +59,13 @@
                       Fugiat deleniti quia suscipit illo iusto minus recusandae
                       obcaecati porro exercitationem voluptatibus.
                     </p>
+                  </div>
+                  <div class="slider-clients-starts">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
                   </div>
                 </section>
               </div>
@@ -68,6 +82,13 @@
                       obcaecati porro exercitationem voluptatibus.
                     </p>
                   </div>
+                  <div class="slider-clients-starts">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                  </div>
                 </section>
               </div>
             </div>
@@ -82,7 +103,7 @@
             <!-- Item Mobile -->
             <div
               class="slider-clients-reviews fade"
-              style="background-image: url(<?php __DIR__ ?> '/assets/images/bg-slider.jpg')"
+              style="background-image: url(<?php __DIR__ ?> '/assets/images/reviews.jpg')"
             >
               <!-- Body reviews -->
               <div class="slider-clients-body">
@@ -251,7 +272,7 @@
            <div class="advantage-item">
             <div class="advantage-body">
               <div class="advantage-item-title">
-                <h3>Forestales</h3>
+                <h3>Ejército</h3>
               </div>
               <div class="advantage-item-description">
                 <p>

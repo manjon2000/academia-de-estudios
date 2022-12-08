@@ -28,18 +28,19 @@ body {
   :root {
     --font_title: 2rem;
     --font_title_h2: 1.5rem;
-    --font_title_h3: 1.5rem;
+    --font_title_h3: 1.2rem;
   }
 }
 @media screen and (min-width: 1024px) {
   :root {
     --font_title: 3rem;
     --font_title_h2: 1.5rem;
+    --font_title_h3: 1.1rem;
   }
 }
 @media screen and (min-width: 1280px) {
   :root {
-    --font_title: 3rem;
+    --font_title: 2.5rem;
     --font_title_h2: 1.5rem;
   }
 }

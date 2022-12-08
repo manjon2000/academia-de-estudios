@@ -173,25 +173,25 @@
                     <li>
                       <a href="#">
                         <i class="fa-regular fa-circle-play"></i>
-                        Crear sitios web utilizando Flexbox y Grid
+                        Lorem, ipsum dolor sit amet
                       </a>
                     </li>
                     <li>
                       <a href="#">
                         <i class="fa-regular fa-circle-play"></i>
-                        Crear sitios web utilizando Flexbox y Grid
+                        Lorem, ipsum dolor sit amet
                       </a>
                     </li>
                     <li>
                       <a href="#">
                         <i class="fa-regular fa-circle-play"></i>
-                        Crear sitios web utilizando Flexbox y Grid
+                        Lorem, ipsum dolor sit amet
                       </a>
                     </li>
                     <li>
                       <a href="#">
                         <i class="fa-regular fa-circle-play"></i>
-                        Crear sitios web utilizando Flexbox y Grid
+                        Lorem, ipsum dolor sit amet
                       </a>
                     </li>
                   </ul>
@@ -223,25 +223,25 @@
                     <li>
                       <a href="#">
                         <i class="fa-regular fa-circle-play"></i>
-                        Crear sitios web utilizando Flexbox y Grid
+                        Lorem, ipsum dolor sit amet
                       </a>
                     </li>
                     <li>
                       <a href="#">
                         <i class="fa-regular fa-circle-play"></i>
-                        Crear sitios web utilizando Flexbox y Grid
+                        Lorem, ipsum dolor sit amet
                       </a>
                     </li>
                     <li>
                       <a href="#">
                         <i class="fa-regular fa-circle-play"></i>
-                        Crear sitios web utilizando Flexbox y Grid
+                        Lorem, ipsum dolor sit amet
                       </a>
                     </li>
                     <li>
                       <a href="#">
                         <i class="fa-regular fa-circle-play"></i>
-                        Crear sitios web utilizando Flexbox y Grid
+                        Lorem, ipsum dolor sit amet
                       </a>
                     </li>
                   </ul>
@@ -272,25 +272,25 @@
                     <li>
                       <a href="#">
                         <i class="fa-regular fa-circle-play"></i>
-                        Crear sitios web utilizando Flexbox y Grid
+                        Lorem, ipsum dolor sit amet
                       </a>
                     </li>
                     <li>
                       <a href="#">
                         <i class="fa-regular fa-circle-play"></i>
-                        Crear sitios web utilizando Flexbox y Grid
+                        Lorem, ipsum dolor sit amet
                       </a>
                     </li>
                     <li>
                       <a href="#">
                         <i class="fa-regular fa-circle-play"></i>
-                        Crear sitios web utilizando Flexbox y Grid
+                        Lorem, ipsum dolor sit amet
                       </a>
                     </li>
                     <li>
                       <a href="#">
                         <i class="fa-regular fa-circle-play"></i>
-                        Crear sitios web utilizando Flexbox y Grid
+                        Lorem, ipsum dolor sit amet
                       </a>
                     </li>
                   </ul>
@@ -321,25 +321,25 @@
                     <li>
                       <a href="#">
                         <i class="fa-regular fa-circle-play"></i>
-                        Crear sitios web utilizando Flexbox y Grid
+                        Lorem, ipsum dolor sit amet
                       </a>
                     </li>
                     <li>
                       <a href="#">
                         <i class="fa-regular fa-circle-play"></i>
-                        Crear sitios web utilizando Flexbox y Grid
+                        Lorem, ipsum dolor sit amet
                       </a>
                     </li>
                     <li>
                       <a href="#">
                         <i class="fa-regular fa-circle-play"></i>
-                        Crear sitios web utilizando Flexbox y Grid
+                        Lorem, ipsum dolor sit amet
                       </a>
                     </li>
                     <li>
                       <a href="#">
                         <i class="fa-regular fa-circle-play"></i>
-                        Crear sitios web utilizando Flexbox y Grid
+                        Lorem, ipsum dolor sit amet
                       </a>
                     </li>
                   </ul>
@@ -410,10 +410,10 @@
             <div class="teacher-card">
               <div class="teacher-info">
                 <div class="teacher-img">
-                  <img src="https://picsum.photos/200" alt="teacher" />
+                  <img src=<?php __DIR__?>"/assets/images/teacher/teacher_1.jpg" alt="teacher" />
                 </div>
                 <div class="teacher-name">
-                  <h4>Albert Perez</h4>
+                  <h4>Jorge Lucho</h4>
                 </div>
               </div>
               <div class="teacher-description">
@@ -431,10 +431,10 @@
             <div class="teacher-card">
               <div class="teacher-info">
                 <div class="teacher-img">
-                  <img src="https://picsum.photos/200" alt="teacher" />
+                  <img src=<?php __DIR__?>"/assets/images/teacher/teacher_2.jpeg" alt="teacher" />
                 </div>
                 <div class="teacher-name">
-                  <h4>Albert Manjon</h4>
+                  <h4>Roberto Gomez</h4>
                 </div>
               </div>
               <div class="teacher-description">

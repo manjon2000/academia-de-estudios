@@ -43,13 +43,13 @@
               <!-- Head -->
               <div class="course-collection-head">
                 <div class="course-collection-image">
-                  <img src=<?php __DIR__  ?> "/assets/images/bg-city.jpg" alt="Course #1" />
+                  <img src=<?php __DIR__  ?> "/assets/images/mossodesquadra.jpg" alt="Course #1" />
                 </div>
               </div>
               <!-- body -->
               <div class="course-collection-body">
                 <div class="course-info-block">
-                  <h3>Lorem, ipsum dolor.</h3>
+                  <h3>Mossos d' esquadra.</h3>
                   <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Minus error modi ipsam, aut laboriosam assumenda.
@@ -75,13 +75,13 @@
               <!-- Head -->
               <div class="course-collection-head">
                 <div class="course-collection-image">
-                  <img src=<?php __DIR__  ?> "/assets/images/bg-city.jpg" alt="Course #1" />
+                  <img src=<?php __DIR__  ?> "/assets/images/guardia-civil.jpeg" alt="Course #1" />
                 </div>
               </div>
               <!-- body -->
               <div class="course-collection-body">
                 <div class="course-info-block">
-                  <h3>Lorem, ipsum dolor.</h3>
+                  <h3>Guardia Civil.</h3>
                   <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Minus error modi ipsam, aut laboriosam assumenda.
@@ -107,13 +107,13 @@
               <!-- Head -->
               <div class="course-collection-head">
                 <div class="course-collection-image">
-                  <img src=<?php __DIR__  ?> "/assets/images/bg-city.jpg"" alt="Course #1" />
+                  <img src=<?php __DIR__  ?> "/assets/images/policia-nacional.jpg" alt="Course #1" />
                 </div>
               </div>
               <!-- body -->
               <div class="course-collection-body">
                 <div class="course-info-block">
-                  <h3>Lorem, ipsum dolor.</h3>
+                  <h3>Policia Nacional.</h3>
                   <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Minus error modi ipsam, aut laboriosam assumenda.
@@ -140,13 +140,13 @@
               <!-- Head -->
               <div class="course-collection-head">
                 <div class="course-collection-image">
-                  <img src=<?php __DIR__  ?> "/assets/images/bg-city.jpg" alt="Course #1" />
+                  <img src=<?php __DIR__  ?> "/assets/images/military_2.jpg" alt="Course #1" />
                 </div>
               </div>
               <!-- body -->
               <div class="course-collection-body">
                 <div class="course-info-block">
-                  <h3>Lorem, ipsum dolor.</h3>
+                  <h3>Ejercito de aire.</h3>
                   <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Minus error modi ipsam, aut laboriosam assumenda.
@@ -172,13 +172,13 @@
               <!-- Head -->
               <div class="course-collection-head">
                 <div class="course-collection-image">
-                  <img src=<?php __DIR__  ?> "/assets/images/bg-city.jpg" alt="Course #1" />
+                  <img src=<?php __DIR__  ?> "/assets/images/military_3.jpg" alt="Course #1" />
                 </div>
               </div>
               <!-- body -->
               <div class="course-collection-body">
                 <div class="course-info-block">
-                  <h3>Lorem, ipsum dolor.</h3>
+                  <h3>Ejercito de tierra.</h3>
                   <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Minus error modi ipsam, aut laboriosam assumenda.
@@ -204,13 +204,13 @@
               <!-- Head -->
               <div class="course-collection-head">
                 <div class="course-collection-image">
-                  <img src=<?php __DIR__  ?> "/assets/images/bg-city.jpg" alt="Course #1" />
+                  <img src=<?php __DIR__  ?> "/assets/images/ue.jpg" alt="Course #1" />
                 </div>
               </div>
               <!-- body -->
               <div class="course-collection-body">
                 <div class="course-info-block">
-                  <h3>Lorem, ipsum dolor.</h3>
+                  <h3>Diputado Union Europea.</h3>
                   <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Minus error modi ipsam, aut laboriosam assumenda.

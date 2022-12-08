@@ -3,13 +3,17 @@
 <script src="https://cdn.jsdelivr.net/combine/npm/fullcalendar@5.11.3,npm/fullcalendar@5.11.3/main.min.js"></script>
 
 <main role="main" class="main-container">
-    <section class="metologia-header-info-container">
+    <section class="header-info-container">
       <article class="metologia-header-title">
         <h3>Metodología</h3>
       </article>
     </section>
 
     <section class="container-calendar">
+      <article class="title-calendar">
+          <h1>Calendario de classes 2023.</h1>
+          <p>Todas las classes son 100% online, sit amet consectetur adipisicing elit. Accusantium, blanditiis.</p>
+      </article>
       <div id='calendar'></div>
     </section>
     <section class="container-calendar">
@@ -55,7 +59,7 @@
                 </div>
               </div>
               <div class="tab-item-image">
-                <img src="https://picsum.photos/900">
+                <img src=<?php __DIR__?> "/assets/images/certificate.jpg">
               </div>
             </div>
           </div>
@@ -83,7 +87,7 @@
                 </div>
               </div>
               <div class="tab-item-image">
-                <img src="https://picsum.photos/1200">
+                <img src=<?php __DIR__?> "/assets/images/course-online.jpg">
               </div>
             </div>
           </div>
@@ -111,7 +115,7 @@
                 </div>
               </div>
               <div class="tab-item-image">
-                <img src="https://picsum.photos/1000">
+                <img src=<?php __DIR__?> "/assets/images/teacher.jpg">
               </div>
             </div>
           </div>
@@ -123,7 +127,7 @@
     <section class="metologia-acordeon-container">
       <article class="metologia-acordeon-content">
         <div class="metologia-acordeon-image">
-          <img src=<?php __DIR__  ?> "/assets/images/metologia_2.jpg">
+          <img src=<?php __DIR__?> "/assets/images/bg-oposiciones.jpg">
         </div>
         <div class="metologia-acordeon-items">
           <!-- Item -->
