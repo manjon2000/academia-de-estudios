@@ -1,5 +1,9 @@
 # Documentacion 
 
+### Instalar paquetes de composer
+```php
+composer install
+```
 ### Crear base de datos
 >Crear tabla:
 ```sql
