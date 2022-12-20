@@ -6,7 +6,7 @@
                 <p>La pagina <span class="text-red"> <?= $_GET['page'] ?> </span> no responde. </p>    
             </div>
         <div class="error-button">
-            <a href="http://localhost:9000/">VOLVER AL INICIO</a>
+            <a href=<?= Routes::url('home') ?>>VOLVER AL INICIO</a>
         </div>
 </article>
 </section>

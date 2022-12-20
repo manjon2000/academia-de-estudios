@@ -1,7 +1,31 @@
 <?php
+
+/**
+ * Include bootstrap
+ */
+
 require_once __DIR__ . '/../bootstrap.php';
+
+/**
+ * Controller Views
+ */
+
 require_once __DIR__ . '/../src/Views/Views.php';
-require_once __DIR__ . '/../src/Utils/titlePages.php';
+
+/**
+ * Settings
+ */
+
+require_once __DIR__ . '/../src/Config/Settings.php';
+
+/**
+ * Utils
+ */
+
+ require_once __DIR__ . '/../src/Utils/titlePages.php';
+ require_once __DIR__ . '/../src/Utils/Routes.php';
+
+
 session_start();
 ?>
 <!DOCTYPE html>
@@ -38,9 +62,9 @@ if (!isset($_GET['page'])) {
     <footer id="footer" class="footer-container">
       <section class="footer-links">
         <article class="footer-menu">
-          <a href="http://localhost:9000/?page=privacidad">Politica de Privacidad</a>
-          <a href="http://localhost:9000/?page=legal">Aviso Legal</a>
-          <a href="http://localhost:9000/?page=cookies">Politica de Cookies</a>
+          <a href=<?= Routes::url('privacidad') ?>>Politica de Privacidad</a>
+          <a href=<?= Routes::url('legal') ?>>Aviso Legal</a>
+          <a href=<?= Routes::url('cookies') ?>>Politica de Cookies</a>
         </article>
         <article class="footer-rrss">
           <a href="https://www.facebook.com/Albert.Dev00"><i class="facebook fa-brands fa-facebook"></i></a>
@@ -58,9 +82,9 @@ if (!isset($_GET['page'])) {
     <footer id="footer" class="footer-container">
       <section class="footer-links">
         <article class="footer-menu">
-          <a href="http://localhost:9000/?page=privacidad">Politica de Privacidad</a>
-          <a href="http://localhost:9000/?page=legal">Aviso Legal</a>
-          <a href="http://localhost:9000/?page=cookies">Politica de Cookies</a>
+          <a href=<?= Routes::url('privacidad') ?>>Politica de Privacidad</a>
+          <a href=<?= Routes::url('legal') ?>>Aviso Legal</a>
+          <a href=<?= Routes::url('cookies') ?>>Politica de Cookies</a>
         </article>
         <article class="footer-rrss">
         <a href="https://www.facebook.com/Albert.Dev00"><i class="facebook fa-brands fa-facebook"></i></a>

@@ -121,7 +121,7 @@ if (isset($_POST['name']) && isset($_POST['lastname']) &&
           for="remember"
           class="text-sm font-medium text-gray-900 dark:text-gray-400"
           >Ya tienes cuenta
-          <a href="http://localhost:9000/?page=login" class="text-blue-600 hover:underline dark:text-blue-500"
+          <a href=<?= Routes::url('register') ?> class="text-blue-600 hover:underline dark:text-blue-500"
             >iniciar session</a
           >.</p>
       </div>
@@ -148,7 +148,7 @@ if (isset($_POST['name']) && isset($_POST['lastname']) &&
             var regex = /\S+@\S+\.\S+/;
             if (regex.test(this.value)) {
 
-              fetch(`http://localhost:9000/Utils/EmailDuplicate.php?email=${this.value}`,{
+              fetch(`<?= Routes::url('home') ?>src/Utils/EmailDuplicate.php?email=${this.value}`,{
                 headers: {
                   "Content-Type": "application/json",
                   "Accept":       "application/json"

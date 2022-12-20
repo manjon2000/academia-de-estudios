@@ -3,7 +3,7 @@
 include_once __DIR__ . '/../../Controllers/loginController.php';
 
   if (isset($_SESSION['user'])) {
-    header('Location: http://localhost:9000/');
+    header('Location:'.Routes::url('home'));
   }
 
   if(isset($_POST['submit-login'])) {
@@ -11,7 +11,7 @@ include_once __DIR__ . '/../../Controllers/loginController.php';
     $verifyUser = $loginUser->loginUser();
 
     if( $verifyUser ) {
-      header('Location: http://localhost:9000/');
+      header('Location:'.Routes::url('home'));
     } 
   }
 ?>
@@ -88,7 +88,7 @@ include_once __DIR__ . '/../../Controllers/loginController.php';
           for="remember"
           class="text-sm font-medium text-gray-900 dark:text-gray-400"
           >No tienes cuenta
-          <a href="http://localhost:9000/?page=register" class="text-blue-600 hover:underline dark:text-blue-500"
+          <a href=<?= Routes::url('register') ?> class="text-blue-600 hover:underline dark:text-blue-500"
             >registrate</a
           >.</p>
       </div>

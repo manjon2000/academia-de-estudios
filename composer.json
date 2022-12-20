@@ -1,7 +1,8 @@
 {
     "require": {
         "squizlabs/php_codesniffer": "*",
-        "monolog/monolog": "^3.2"
+        "monolog/monolog": "^3.2",
+        "symfony/dotenv": "^6.2"
     },
     "autoload": {
         "psr-4": {

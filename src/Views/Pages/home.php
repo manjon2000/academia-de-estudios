@@ -15,10 +15,10 @@
           </div>
           <div class="header-info-buttons">
             <div class="button-header">
-              <a class="button-m btn-primary" href="http://localhost:9000/?page=contacto">Contáctanos</a>
+              <a class="button-m btn-primary" href=<?= Routes::url('contacto') ?>>Contáctanos</a>
             </div>
             <div class="button-header">
-              <a class="button-m btn-outline" href="http://localhost:9000/?page=cursos">Ver todos los cursos</a>
+              <a class="button-m btn-outline" href=<?= Routes::url('cursos') ?>>Ver todos los cursos</a>
             </div>
           </div>
         </article>

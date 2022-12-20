@@ -16,3 +16,9 @@
     'PASSWORD'  => 'root',
     'DATABASE'  => 'ProyectoTokioSchool'
   ));
+
+  /**
+   * Route name
+   */
+
+   define('NAME_URL', $_ENV['APP_HOST']);

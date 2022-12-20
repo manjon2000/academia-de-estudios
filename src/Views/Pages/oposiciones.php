@@ -52,8 +52,8 @@
                         </p>
                     </div>
                     <div class="opociciones-info-card-body-button-groups">
-                        <a class="btn-outline-grey" href="http://localhost:9000/?page=details">Ver detalles</a>
-                        <a class="btn-primary" href="http://localhost:9000/?page=contacto">contáctanos</a>
+                        <a class="btn-outline-grey" href=<?= Routes::url('details') ?>>Ver detalles</a>
+                        <a class="btn-primary" href=<?= Routes::url('contacto') ?>>contáctanos</a>
                     </div>
                 </div>
 
@@ -87,8 +87,8 @@
                         </p>
                     </div>
                     <div class="opociciones-info-card-body-button-groups">
-                        <a class="btn-outline-grey" href="http://localhost:9000/?page=details">Ver detalles</a>
-                        <a class="btn-primary" href="http://localhost:9000/?page=contacto">contáctanos</a>
+                        <a class="btn-outline-grey" href=<?= Routes::url('details') ?>>Ver detalles</a>
+                        <a class="btn-primary" href=<?= Routes::url('contacto') ?>>contáctanos</a>
                     </div>
                 </div>
 
@@ -122,8 +122,8 @@
                         </p>
                     </div>
                     <div class="opociciones-info-card-body-button-groups">
-                        <a class="btn-outline-grey" href="http://localhost:9000/?page=details">Ver detalles</a>
-                        <a class="btn-primary" href="http://localhost:9000/?page=contacto">contáctanos</a>
+                        <a class="btn-outline-grey" href=<?= Routes::url('details') ?>>Ver detalles</a>
+                        <a class="btn-primary" href=<?= Routes::url('contacto') ?>>contáctanos</a>
                     </div>
                 </div>
 

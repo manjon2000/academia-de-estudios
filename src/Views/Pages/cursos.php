@@ -54,7 +54,7 @@
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Minus error modi ipsam, aut laboriosam assumenda.
                   </p>
-                  <a href="http://localhost:9000/?page=details">Ver detalles</a>
+                  <a href=<?= Routes::url('details') ?>>Ver detalles</a>
                 </div>
               </div>
               <!-- Footer -->
@@ -86,7 +86,7 @@
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Minus error modi ipsam, aut laboriosam assumenda.
                   </p>
-                  <a href="http://localhost:9000/?page=details">Ver detalles</a>
+                  <a href=<?= Routes::url('details') ?>>Ver detalles</a>
                 </div>
               </div>
               <!-- Footer -->
@@ -118,7 +118,7 @@
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Minus error modi ipsam, aut laboriosam assumenda.
                   </p>
-                  <a href="http://localhost:9000/?page=details">Ver detalles</a>
+                  <a href=<?= Routes::url('details') ?>>Ver detalles</a>
                 </div>
               </div>
               <!-- Footer -->
@@ -151,7 +151,7 @@
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Minus error modi ipsam, aut laboriosam assumenda.
                   </p>
-                  <a href="http://localhost:9000/?page=details">Ver detalles</a>
+                  <a href=<?= Routes::url('details') ?>>Ver detalles</a>
                 </div>
               </div>
               <!-- Footer -->
@@ -183,7 +183,7 @@
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Minus error modi ipsam, aut laboriosam assumenda.
                   </p>
-                  <a href="http://localhost:9000/?page=details">Ver detalles</a>
+                  <a href=<?= Routes::url('details') ?>>Ver detalles</a>
                 </div>
               </div>
               <!-- Footer -->
@@ -215,7 +215,7 @@
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Minus error modi ipsam, aut laboriosam assumenda.
                   </p>
-                  <a href="http://localhost:9000/?page=details">Ver detalles</a>
+                  <a href=<?= Routes::url('details') ?>>Ver detalles</a>
                 </div>
               </div>
               <!-- Footer -->

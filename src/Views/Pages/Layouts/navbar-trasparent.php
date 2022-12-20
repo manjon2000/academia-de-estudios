@@ -10,20 +10,20 @@
               <div class="navbar-menu-item">
                   <ul class="navbar-content-menu">
                     <li class="mobile-menu-links">
-                      <a class="mobile-menu-link" href="http://localhost:9000/">Inicio</a>
+                      <a class="mobile-menu-link" href=<?= Routes::url('home') ?>>Inicio</a>
                     </li>
                     <li class="mobile-menu-links">
-                      <a class="mobile-menu-link" href="http://localhost:9000/?page=metologia">Metodología</a>
+                      <a class="mobile-menu-link" href=<?= Routes::url('metologia') ?>>Metodología</a>
                     </li>
                     <li class="mobile-menu-links">
-                      <a class="mobile-menu-link open-submenu" href="http://localhost:9000/?page=oposiciones">Oposiciones
+                      <a class="mobile-menu-link open-submenu" href=<?= Routes::url('oposiciones') ?>>Oposiciones
                       </a>
                     </li>
                     <li class="mobile-menu-links">
-                      <a class="mobile-menu-link open-submenu" href="http://localhost:9000/?page=cursos">Cursos</a>
+                      <a class="mobile-menu-link open-submenu" href=<?= Routes::url('cursos') ?>>Cursos</a>
                     </li>
                     <li class="mobile-menu-links">
-                      <a class="mobile-menu-link" href="http://localhost:9000/?page=contacto">Contacto</a>
+                      <a class="mobile-menu-link" href=<?= Routes::url('contacto') ?>>Contacto</a>
                     </li>
                     <?php if (isset($_SESSION['user'])): ?>
                         <!-- User Logger -->
@@ -33,7 +33,7 @@
                                 <img src="https://picsum.photos/200" width="30" />
                                 </div>
                                 <div class="user-name-mobile">
-                                    <a href="http://localhost:9000/?page=logout"><?php echo $_SESSION['user']['name']; ?></a>
+                                    <a href=<?= Routes::url('logout') ?>><?php echo $_SESSION['user']['name']; ?></a>
                                 </div>
                             </div>
                             </li>
@@ -42,8 +42,8 @@
                             <!-- BUTTONS LOGIN AND REGISTER -->
                                 <li>
                                 <div class="mobile-buttons-menu">
-                                    <a class="button-mobile button-bg" href="http://localhost:9000/?page=login">Login</a>
-                                    <a class="button-mobile button-bg-hover" href="http://localhost:9000/?page=register">Register</a>
+                                    <a class="button-mobile button-bg" href=<?= Routes::url('login') ?>>Login</a>
+                                    <a class="button-mobile button-bg-hover" href=<?= Routes::url('register') ?>>Register</a>
                                 </div>
                                 </li>
                             <!-- END BUTTONS LOGIN AND REGISTER -->
@@ -67,16 +67,16 @@
               <a class=" link-menu-actived desktop-menu-link" href="http://localhost:9000/">Inicio</a>
             </li >
             <li class="desktop-menu-links">
-              <a class="desktop-menu-link" href="http://localhost:9000/?page=metologia">Metodología</a>
+              <a class="desktop-menu-link" href=<?= Routes::url('metologia') ?>>Metodología</a>
             </li>
             <li  class="desktop-menu-links">
-              <a class="desktop-menu-link" href="http://localhost:9000/?page=oposiciones">Oposiciones</a>
+              <a class="desktop-menu-link" href=<?= Routes::url('oposiciones') ?>>Oposiciones</a>
             </li>
             <li  class="desktop-menu-links">
-              <a class="desktop-menu-link" href="http://localhost:9000/?page=cursos">Cursos</a>
+              <a class="desktop-menu-link" href=<?= Routes::url('cursos') ?>>Cursos</a>
             </li>
             <li  class="desktop-menu-links">
-              <a class="desktop-menu-link" href="http://localhost:9000/?page=contacto">Contacto</a>
+              <a class="desktop-menu-link" href=<?= Routes::url('contacto') ?>>Contacto</a>
             </li>
           </ul>
         </article>
@@ -101,7 +101,7 @@
                                     <a href="#">Editar Perfil</a>
                                 </li>
                                 <li>
-                                    <a href="http://localhost:9000/?page=logout">Cerrar sesion</a>
+                                    <a href=<?= Routes::url('logout') ?>>Cerrar sesion</a>
                                 </li>
                                 </ul>
                             </div>
@@ -111,8 +111,8 @@
             <?php else: ?>
             <!-- Buttons login and register -->
                 <div class="desktop-buttons-menu">
-                    <a class="button-desktop button-bg" href="http://localhost:9000/?page=login">Login</a>
-                    <a class="button-desktop button-bg-hover" href="http://localhost:9000/?page=register">Register</a>
+                    <a class="button-desktop button-bg" href=<?= Routes::url('login') ?>>Login</a>
+                    <a class="button-desktop button-bg-hover" href=<?= Routes::url('register') ?>>Register</a>
                 </div>
             <!-- End Buttons login and register -->
           <?php endif;?>
